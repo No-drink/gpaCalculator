@@ -1,6 +1,6 @@
 ﻿// ==UserScript==
 // @name         GPA Calculator
-// @version      1.2
+// @version      1.2.1
 // @description  A GPA Calculator of WHU
 // @author       Jeoy_Pei
 // @license MIT
@@ -20,7 +20,7 @@
         kcxz=kcxz.substring(kcxz.length-2);
         var kcbj=oTd[13].innerText;
         var xf=Number(oTd[6].innerText);
-        var xfj=Number(oTd[23].innerText);
+        var xfj=Number(oTd[24].innerText);
         var cj=oTd[7].innerText;
         var xq=Number(oTd[2].innerText);
         var xfcj;
